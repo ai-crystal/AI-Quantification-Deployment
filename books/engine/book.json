@@ -1,0 +1,10 @@
+{
+  "title": "引擎",
+  "subtitle": "计算图、编译与推理服务",
+  "pdf": "landing-04-engine.pdf",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "toc_sections": true,
+  "subject": "计算图优化、推理编译、运行时、批处理与推理服务",
+  "keywords": "计算图, 算子融合, TensorRT, TVM, MLIR, torch.compile, PagedAttention, vLLM"
+}

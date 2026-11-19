@@ -1,0 +1,10 @@
+{
+  "title": "落地",
+  "subtitle": "AI 推理部署与量化入门",
+  "pdf": "landing-01-intro.pdf",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "toc_sections": true,
+  "subject": "AI 推理部署、量化、算子融合与推理引擎",
+  "keywords": "推理部署, 量化, 算子融合, TensorRT, LLM, 性能优化"
+}

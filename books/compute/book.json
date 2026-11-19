@@ -1,0 +1,10 @@
+{
+  "title": "算力",
+  "subtitle": "GPU、CUDA 与算子性能",
+  "pdf": "landing-02-compute.pdf",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "toc_sections": true,
+  "subject": "GPU 架构、CUDA 编程、GEMM、卷积、Attention 与性能分析",
+  "keywords": "GPU, CUDA, GEMM, 卷积, FlashAttention, roofline, Nsight, 算子融合"
+}

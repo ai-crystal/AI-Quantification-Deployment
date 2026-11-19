@@ -1,0 +1,10 @@
+_private/
+papers/
+books/build/_tmp/
+__pycache__/
+*.pyc
+/page*.png
+/q*.png
+/p[0-9]*.png
+/contact.png
+/*.png

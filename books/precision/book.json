@@ -1,0 +1,10 @@
+{
+  "title": "精度",
+  "subtitle": "量化、剪枝与低秩分解",
+  "pdf": "landing-03-precision.pdf",
+  "author": "Dr. Dezeming",
+  "year": "2026",
+  "toc_sections": true,
+  "subject": "数值格式、量化、剪枝、低秩分解与知识蒸馏",
+  "keywords": "量化, PTQ, QAT, FP8, INT4, GPTQ, AWQ, SmoothQuant, 剪枝, 低秩分解, 蒸馏"
+}
