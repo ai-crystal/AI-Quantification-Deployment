@@ -33,4 +33,4 @@
 ## 阅读
 
 - [在线阅读](https://ai-crystal.github.io/AI-Inference-Deployment/#/books/precision/README)
-- [下载 PDF](../../output/landing-03-precision.pdf)
+- [下载 PDF](../../output/landing-03-precision.pdf ':ignore')

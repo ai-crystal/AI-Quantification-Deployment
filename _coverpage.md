@@ -7,4 +7,4 @@
 Dr. Dezeming　2026
 
 [开始阅读](books/intro/README.md)
-[下载入门册 PDF](output/landing-01-intro.pdf)
+[下载入门册 PDF](output/landing-01-intro.pdf ':ignore')

@@ -32,4 +32,4 @@
 ## 阅读
 
 - [在线阅读](https://ai-crystal.github.io/AI-Inference-Deployment/#/books/engine/README)
-- [下载 PDF](../../output/landing-04-engine.pdf)
+- [下载 PDF](../../output/landing-04-engine.pdf ':ignore')
