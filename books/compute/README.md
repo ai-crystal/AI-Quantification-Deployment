@@ -34,5 +34,5 @@
 
 ## 阅读
 
-- [在线阅读](https://ai-crystal.github.io/AI-Inference-Deployment/#/books/compute/README)
+- [在线阅读](https://ai-crystal.github.io/AI-Quantification-Deployment/#/books/compute/README)
 - [下载 PDF](output/landing-02-compute.pdf ':ignore')

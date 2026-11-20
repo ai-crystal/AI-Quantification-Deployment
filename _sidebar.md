@@ -15,5 +15,5 @@
   - [04 引擎册](output/landing-04-engine.pdf ':ignore')
 
 - **GitHub**
-  - [源码仓库](https://github.com/ai-crystal/AI-Inference-Deployment ':target=_blank')
-  - [提 issue](https://github.com/ai-crystal/AI-Inference-Deployment/issues ':target=_blank')
+  - [源码仓库](https://github.com/ai-crystal/AI-Quantification-Deployment ':target=_blank')
+  - [提 issue](https://github.com/ai-crystal/AI-Quantification-Deployment/issues ':target=_blank')

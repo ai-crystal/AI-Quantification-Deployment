@@ -24,7 +24,7 @@
 
 ## 在线阅读
 
-站点：<https://ai-crystal.github.io/AI-Inference-Deployment/>
+站点：<https://ai-crystal.github.io/AI-Quantification-Deployment/>
 
 每一章都有独立地址，可以直接分享。侧栏可以切换分册，右上角可以搜索全书。也可以从[全书目录](TOC.md)进入任意一章。
 
