@@ -38,23 +38,24 @@ label(ax, 50, 5.2, "推理只走这一条路；训练还要从右往左算梯度
 save(fig, "01/fig01_1.png")
 
 # ---------------------------------------------------------------- 图 1-2
-fig, ax = canvas(7.4, 3.5, 100)
+fig, ax = canvas(7.4, 4.2, 100)
 
 rows = [
     ("模型", "剪枝　低秩分解　蒸馏", "可能要重新训练", WARM, WARM_L),
     ("计算图", "算子融合　常量折叠　死代码消除", "几乎不损失精度", ACCENT, ACCENT_L),
     ("数值", "fp16　bf16　fp8　int8　int4", "精度换带宽与算力", GREEN, GREEN_L),
-    ("执行", "kernel　并行　内存布局　批处理", "需要熟悉硬件", GRAY, GRAY_L),
+    ("执行", "kernel　并行　内存布局　显存", "需要熟悉硬件", GRAY, GRAY_L),
+    ("系统", "批处理　调度　缓存　服务", "请求与资源匹配", RED, RED_L),
 ]
 
 for i, (name, techs, cost, ec, fc) in enumerate(rows):
-    yy = 37.0 - i * 7.6
+    yy = 45.0 - i * 8.2
     box(ax, 2.0, yy, 12.0, 5.4, name, fc=fc, ec=ec, fs=9.0, bold=True)
     label(ax, 17.0, yy + 2.7, techs, fs=8.1, ha="left", color=INK)
     label(ax, 62.0, yy + 2.7, cost, fs=7.5, ha="left", color=GRAY)
-    if i < 3:
+    if i < 4:
         arrow(ax, (8.0, yy - 0.3), (8.0, yy - 1.8), color=GRAY, lw=0.8)
 
-label(ax, 50, 2.2, "越往下越靠近硬件，改动越小，收益往往越大；越往上越动模型本身，代价也越高",
+label(ax, 50, 8.0, "越往上越动模型本身，代价越高；越往下越靠近执行与调度，收益与复杂度一起变",
       fs=7.8, color=GRAY)
 save(fig, "01/fig01_2.png")
