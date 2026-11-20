@@ -23,4 +23,4 @@
 - [附录 · 延伸阅读](books/precision/appendix/a-references.md)
 
 - [返回系列首页](README.md)
-- [下载本册 PDF](output/landing-03-precision.pdf ':ignore')
+- [下载本册 PDF](output/ai-inference-03-precision.pdf ':ignore')

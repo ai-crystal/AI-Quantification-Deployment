@@ -1,7 +1,7 @@
 {
-  "title": "落地",
-  "subtitle": "AI 推理部署与量化入门",
-  "pdf": "landing-01-intro.pdf",
+  "title": "入门",
+  "subtitle": "从模型文件到线上服务",
+  "pdf": "ai-inference-01-intro.pdf",
   "author": "Dr. Dezeming",
   "year": "2026",
   "toc_sections": true,

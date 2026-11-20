@@ -2,7 +2,7 @@
 
 按四册排列，章节顺序与 PDF 一致。每一章都链接到仓库里的 Markdown，GitHub 网页端可以直接阅读。
 
-## 落地：AI 推理部署与量化入门
+## 入门：从模型文件到线上服务
 
 - 第 1 章　[训练结束之后](books/intro/chapters/ch01.md)
 - 第 2 章　[延迟、吞吐与显存的账](books/intro/chapters/ch02.md)
@@ -35,7 +35,7 @@
 
 - [延伸阅读](books/intro/appendix/a-references.md)
 - [术语表](books/intro/appendix/b-glossary.md)
-- [本册 PDF](output/landing-01-intro.pdf ':ignore')
+- [本册 PDF](output/ai-inference-01-intro.pdf ':ignore')
 
 ## 算力：GPU、CUDA 与算子性能
 
@@ -55,7 +55,7 @@
 - 第 14 章　[从 kernel 到端到端延迟](books/compute/chapters/ch14.md)
 
 - [延伸阅读](books/compute/appendix/a-references.md)
-- [本册 PDF](output/landing-02-compute.pdf ':ignore')
+- [本册 PDF](output/ai-inference-02-compute.pdf ':ignore')
 
 ## 精度：量化、剪枝与低秩分解
 
@@ -76,7 +76,7 @@
 - 第 15 章　[精度评估与上线监控](books/precision/chapters/ch15.md)
 
 - [延伸阅读](books/precision/appendix/a-references.md)
-- [本册 PDF](output/landing-03-precision.pdf ':ignore')
+- [本册 PDF](output/ai-inference-03-precision.pdf ':ignore')
 
 ## 引擎：计算图、编译与推理服务
 
@@ -96,4 +96,4 @@
 - 第 14 章　[选型与取舍](books/engine/chapters/ch14.md)
 
 - [延伸阅读](books/engine/appendix/a-references.md)
-- [本册 PDF](output/landing-04-engine.pdf ':ignore')
+- [本册 PDF](output/ai-inference-04-engine.pdf ':ignore')

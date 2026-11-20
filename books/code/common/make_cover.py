@@ -22,8 +22,8 @@ W, H = 1240, 1754
 FONT_BOLD = r"C:\Windows\Fonts\msyhbd.ttc"
 FONT_REG = r"C:\Windows\Fonts\msyh.ttc"
 
-SERIES_EN = "LANDING"
-SERIES_CN = "落地"
+SERIES_EN = "AI INFERENCE"
+SERIES_CN = "AI 推理部署与量化技术"
 SERIES_SUB = "AI 推理部署与量化技术"
 
 BOOKS = {
@@ -128,7 +128,7 @@ def make_front(key):
     d.text((100, 360), book["title"], font=f_title, fill=ink)
 
     d.line([(112, 620), (112 + 196, 620)], fill=accent, width=3)
-    d.text((108, 660), "%s　%s" % (cfg["volume"], cfg["role"]), font=f_vol, fill=accent)
+    d.text((108, 660), cfg["volume"], font=f_vol, fill=accent)
     d.text((108, 760), book["subtitle"], font=f_sub, fill=soft)
 
     # 右下角大号册号，压得很淡
@@ -137,7 +137,7 @@ def make_front(key):
 
     d.text((108, H - 220), "Dr. Dezeming", font=f_vol, fill=ink)
     d.text((108, H - 158), "2026", font=f_small, fill=soft)
-    d.text((W - 300, H - 158), SERIES_CN, font=f_vol, fill=accent)
+    d.text((W - 360, H - 158), "AI 推理部署", font=f_vol, fill=accent)
 
     out = os.path.join(ROOT, "books", key, "images", "cover.jpg")
     os.makedirs(os.path.dirname(out), exist_ok=True)
@@ -169,7 +169,7 @@ def make_back(key):
         d.text((108, y), line, font=f_body, fill=ink)
         y += 62
 
-    d.text((108, H - 240), "%s　%s" % (SERIES_CN, cfg["role"]), font=f_vol, fill=accent)
+    d.text((108, H - 240), "%s　%s" % ("AI 推理部署与量化技术", cfg["role"]), font=f_vol, fill=accent)
     d.text((108, H - 180), "Dr. Dezeming　2026", font=f_small, fill=soft)
 
     out = os.path.join(ROOT, "books", key, "images", "backcover.jpg")

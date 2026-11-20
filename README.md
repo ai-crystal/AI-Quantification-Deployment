@@ -1,6 +1,6 @@
-# 落地
+# AI 推理部署与量化技术
 
-> AI 推理部署与量化技术
+> 从模型文件到线上服务，四册正文加一册实战
 
 从一次前向开始，把模型文件、算子、计算图、数值精度和线上服务串成一条线。四册正文，一册实战。
 
@@ -12,10 +12,10 @@
 
 | 册 | 书名 | 一句话 | 页数 | 阅读 | 下载 |
 |---|---|---|---|---|---|
-| 01 | 落地：AI 推理部署与量化入门 | 建立全景地图，覆盖全部技术，不深入公式 | 116 | [在线阅读](books/intro/README.md) | [PDF](output/landing-01-intro.pdf ':ignore') |
-| 02 | 算力：GPU、CUDA 与算子性能 | 从 SM 与存储层次讲到 GEMM、卷积、FlashAttention | 83 | [在线阅读](books/compute/README.md) | [PDF](output/landing-02-compute.pdf ':ignore') |
-| 03 | 精度：量化、剪枝与低秩分解 | 浮点、定点、PTQ/QAT、GPTQ/AWQ、剪枝与蒸馏 | 82 | [在线阅读](books/precision/README.md) | [PDF](output/landing-03-precision.pdf ':ignore') |
-| 04 | 引擎：计算图、编译与推理服务 | 图优化、TensorRT、torch.compile、批处理与服务 | 74 | [在线阅读](books/engine/README.md) | [PDF](output/landing-04-engine.pdf ':ignore') |
+| 01 | 入门：从模型文件到线上服务 | 建立全景地图，覆盖全部技术，不深入公式 | 116 | [在线阅读](books/intro/README.md) | [PDF](output/ai-inference-01-intro.pdf ':ignore') |
+| 02 | 算力：GPU、CUDA 与算子性能 | 从 SM 与存储层次讲到 GEMM、卷积、FlashAttention | 83 | [在线阅读](books/compute/README.md) | [PDF](output/ai-inference-02-compute.pdf ':ignore') |
+| 03 | 精度：量化、剪枝与低秩分解 | 浮点、定点、PTQ/QAT、GPTQ/AWQ、剪枝与蒸馏 | 82 | [在线阅读](books/precision/README.md) | [PDF](output/ai-inference-03-precision.pdf ':ignore') |
+| 04 | 引擎：计算图、编译与推理服务 | 图优化、TensorRT、torch.compile、批处理与服务 | 74 | [在线阅读](books/engine/README.md) | [PDF](output/ai-inference-04-engine.pdf ':ignore') |
 | 05 | 实战：一个真实项目的优化记录 | 拿到项目后按真实数据撰写 | — | [说明](books/practice/README.md) | — |
 
 ## 适合谁

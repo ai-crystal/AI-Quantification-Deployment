@@ -22,4 +22,4 @@
 - [附录 · 延伸阅读](books/compute/appendix/a-references.md)
 
 - [返回系列首页](README.md)
-- [下载本册 PDF](output/landing-02-compute.pdf ':ignore')
+- [下载本册 PDF](output/ai-inference-02-compute.pdf ':ignore')

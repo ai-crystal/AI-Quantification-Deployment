@@ -1,8 +1,9 @@
-# 落地：AI 推理部署与量化入门
+# 入门：从模型文件到线上服务
 
 本册可以单独阅读，章节编号和插图编号只在本册内使用。
 
 ## 目录
+
 
 **第一篇　推理为什么是另一门手艺**
 
@@ -56,4 +57,4 @@
 ## 阅读
 
 - [在线阅读](https://ai-crystal.github.io/AI-Quantification-Deployment/#/books/intro/README)
-- [下载 PDF](output/landing-01-intro.pdf ':ignore')
+- [下载 PDF](output/ai-inference-01-intro.pdf ':ignore')

@@ -35,4 +35,4 @@
 ## 阅读
 
 - [在线阅读](https://ai-crystal.github.io/AI-Quantification-Deployment/#/books/engine/README)
-- [下载 PDF](output/landing-04-engine.pdf ':ignore')
+- [下载 PDF](output/ai-inference-04-engine.pdf ':ignore')

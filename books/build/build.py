@@ -33,8 +33,8 @@ from theme import (ACCENT, ACCENT_SOFT, BODY, BODY_B, BODY_I, CONTENT_W, GRAY,
                    GRAY_LIGHT, HEAD, INK, MARGIN_B, MARGIN_L, MARGIN_R, MARGIN_T,
                    PAGE_H, PAGE_W, RULE)  # noqa: E402
 
-BOOK_TITLE = "落地"
-BOOK_SUBTITLE = "AI 推理部署与量化入门"
+BOOK_TITLE = "入门"
+BOOK_SUBTITLE = "从模型文件到线上服务"
 BOOK_AUTHOR = "Dr. Dezeming"
 BOOK_YEAR = "2026"
 TOC_SECTIONS = True      # 目录是否列出小节，可由 book.json 覆盖
