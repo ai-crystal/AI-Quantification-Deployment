@@ -161,6 +161,59 @@
     "toc_prefix": "第 20 章"
   },
   {
+    "kind": "chapter",
+    "file": "chapters/ch21.md",
+    "kicker": "第 21 章",
+    "toc_prefix": "第 21 章"
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch22.md",
+    "kicker": "第 22 章",
+    "toc_prefix": "第 22 章"
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch23.md",
+    "kicker": "第 23 章",
+    "toc_prefix": "第 23 章"
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch24.md",
+    "kicker": "第 24 章",
+    "toc_prefix": "第 24 章"
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch25.md",
+    "kicker": "第 25 章",
+    "toc_prefix": "第 25 章"
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch26.md",
+    "kicker": "第 26 章",
+    "toc_prefix": "第 26 章"
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch27.md",
+    "kicker": "第 27 章",
+    "toc_prefix": "第 27 章"
+  },
+  {
+    "kind": "part",
+    "file": "front/80-part6.md",
+    "kicker": ""
+  },
+  {
+    "kind": "chapter",
+    "file": "chapters/ch28.md",
+    "kicker": "第 28 章",
+    "toc_prefix": "第 28 章"
+  },
+  {
     "kind": "appendix",
     "file": "appendix/a-references.md",
     "kicker": "",

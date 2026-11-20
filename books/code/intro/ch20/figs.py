@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""第 20 章插图：全书技术地图。"""
+"""第 20 章插图：四种注意力的 K/V 组织。"""
 
 import os
 import sys
@@ -10,32 +10,40 @@ import figstyle
 figstyle.use_book("intro")
 
 from figstyle import (ACCENT, ACCENT_L, GRAY, GRAY_L, GREEN, GREEN_L, INK, RED,
-                      RED_L, WARM, WARM_L, WHITE, arrow, box, canvas, label,
+                      RED_L, WARM, WARM_L, WHITE, Rectangle, box, canvas, label,
                       line, save)
 
-fig, ax = canvas(7.2, 4.0, 100)
+fig, ax = canvas(7.2, 3.2, 100)
 
-bands = [
-    ("模型", "可能重训", WARM, WARM_L,
-     ["剪枝", "低秩分解", "蒸馏", "结构替换"]),
-    ("计算图", "几乎无损", ACCENT, ACCENT_L,
-     ["常量折叠", "死代码消除", "算子融合", "布局转换", "静态化"]),
-    ("数值", "精度换成本", GREEN, GREEN_L,
-     ["fp16 / bf16", "int8", "int4", "fp8", "KV 量化"]),
-    ("执行", "工程复杂", GRAY, GRAY_L,
-     ["kernel", "显存规划", "批处理", "推理引擎"]),
+panels = [
+    ("MHA", 4, 4, "1×", ACCENT, ACCENT_L),
+    ("MQA", 4, 1, "1/4", GREEN, GREEN_L),
+    ("GQA", 4, 2, "1/2", WARM, WARM_L),
+    ("MLA", 4, 1, "更小", GRAY, GRAY_L),
 ]
 
-for i, (name, cost, ec, fc, chips) in enumerate(bands):
-    y = 37.0 - i * 9.6
-    box(ax, 2.0, y, 14.0, 7.8, fc=fc, ec=ec)
-    label(ax, 9.0, y + 5.2, name, fs=8.4, bold=True, color=ec)
-    label(ax, 9.0, y + 2.4, cost, fs=5.8, color=GRAY)
-    n = len(chips)
-    cw = (82.0 - (n - 1) * 1.4) / n
-    for j, chip in enumerate(chips):
-        x = 17.5 + j * (cw + 1.4)
-        box(ax, x, y + 0.6, cw, 6.6, chip, fc=WHITE, ec=GRAY, fs=6.0)
+for k, (name, nq, nkv, ratio, ec, fc) in enumerate(panels):
+    x0 = 2.0 + k * 24.5
+    label(ax, x0 + 10.0, 39.0, name, fs=8.2, bold=True)
 
-label(ax, 50, 2.0, "越往上越动模型本身，越往下越靠近硬件；每层都有对应的代价", fs=7.0, color=GRAY)
+    label(ax, x0, 33.4, "查询头", fs=6.4, ha="left", color=GRAY)
+    for i in range(nq):
+        qx = x0 + 2.0 + i * 4.3
+        ax.add_patch(Rectangle((qx, 27.5), 3.4, 3.4, facecolor=fc,
+                               edgecolor=ec, lw=0.7, zorder=3))
+
+    label(ax, x0, 23.4, "K / V", fs=6.4, ha="left", color=GRAY)
+    if name == "MLA":
+        box(ax, x0 + 1.2, 14.5, 15.6, 6.0, "潜向量", fc=fc, ec=ec, fs=6.4)
+    else:
+        for i in range(nkv):
+            kx = x0 + 1.2 + i * 5.6
+            ax.add_patch(Rectangle((kx, 15.5), 4.6, 4.6, facecolor=fc,
+                                   edgecolor=ec, lw=0.7, zorder=3))
+            label(ax, kx + 2.3, 17.8, "K/V", fs=5.6, color=ec)
+
+    label(ax, x0 + 9.0, 9.0, "cache " + ratio, fs=7.0, color=GRAY)
+
+label(ax, 50, 2.4, "四个查询头为例；cache 比例只表示相对大小，实际取决于头数与层数",
+      fs=7.0, color=GRAY)
 save(fig, "20/fig20_1.png")
