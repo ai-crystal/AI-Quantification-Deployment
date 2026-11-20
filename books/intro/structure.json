@@ -220,6 +220,12 @@
     "toc_prefix": ""
   },
   {
+    "kind": "appendix",
+    "file": "appendix/b-glossary.md",
+    "kicker": "",
+    "toc_prefix": ""
+  },
+  {
     "kind": "epilogue",
     "file": "front/90-epilogue.md",
     "kicker": "",

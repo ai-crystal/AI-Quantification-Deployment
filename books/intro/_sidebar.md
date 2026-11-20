@@ -41,5 +41,6 @@
   - [技术地图与学习路径](books/intro/chapters/ch28.md)
 
 - [附录 · 延伸阅读](books/intro/appendix/a-references.md)
+- [附录 · 术语表](books/intro/appendix/b-glossary.md)
 - [返回系列首页](README.md)
 - [下载本册 PDF](output/landing-01-intro.pdf ':ignore')

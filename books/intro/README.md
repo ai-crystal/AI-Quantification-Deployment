@@ -51,6 +51,7 @@
 - 第 28 章　[技术地图与学习路径](books/intro/chapters/ch28.md)
 
 - [延伸阅读](books/intro/appendix/a-references.md)
+- [术语表](books/intro/appendix/b-glossary.md)
 
 ## 阅读
 
