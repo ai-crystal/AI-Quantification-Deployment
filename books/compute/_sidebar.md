@@ -19,4 +19,4 @@
 - **附录**
   - [延伸阅读](/books/compute/appendix/a-references.md)
 
-- <a href="/output/ai-inference-02-compute.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v2-compute.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

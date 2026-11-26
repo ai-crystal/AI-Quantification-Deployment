@@ -1,7 +1,7 @@
 {
   "title": "算力",
   "subtitle": "GPU、CUDA 与算子性能",
-  "pdf": "ai-inference-02-compute.pdf",
+  "pdf": "v2-compute.pdf",
   "author": "Dr. Dezeming",
   "year": "2026",
   "toc_sections": true,

@@ -34,4 +34,4 @@
   - [延伸阅读](/books/intro/appendix/a-references.md)
   - [术语表](/books/intro/appendix/b-glossary.md)
 
-- <a href="/output/ai-inference-01-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

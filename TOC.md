@@ -35,7 +35,7 @@
 
 - [延伸阅读](books/intro/appendix/a-references.md)
 - [术语表](books/intro/appendix/b-glossary.md)
-- [本册 PDF](output/ai-inference-01-intro.pdf ':ignore')
+- [本册 PDF](output/v1-intro.pdf ':ignore')
 
 ## 算力：GPU、CUDA 与算子性能
 
@@ -55,7 +55,7 @@
 - 第 14 章　[从 kernel 到端到端延迟](books/compute/chapters/ch14.md)
 
 - [延伸阅读](books/compute/appendix/a-references.md)
-- [本册 PDF](output/ai-inference-02-compute.pdf ':ignore')
+- [本册 PDF](output/v2-compute.pdf ':ignore')
 
 ## 精度：量化、剪枝与低秩分解
 
@@ -76,7 +76,7 @@
 - 第 15 章　[精度评估与上线监控](books/precision/chapters/ch15.md)
 
 - [延伸阅读](books/precision/appendix/a-references.md)
-- [本册 PDF](output/ai-inference-03-precision.pdf ':ignore')
+- [本册 PDF](output/v3-precision.pdf ':ignore')
 
 ## 引擎：计算图、编译与推理服务
 
@@ -96,4 +96,4 @@
 - 第 14 章　[选型与取舍](books/engine/chapters/ch14.md)
 
 - [延伸阅读](books/engine/appendix/a-references.md)
-- [本册 PDF](output/ai-inference-04-engine.pdf ':ignore')
+- [本册 PDF](output/v4-engine.pdf ':ignore')

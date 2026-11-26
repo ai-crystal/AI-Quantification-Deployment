@@ -1,7 +1,7 @@
 {
   "title": "精度",
   "subtitle": "量化、剪枝与低秩分解",
-  "pdf": "ai-inference-03-precision.pdf",
+  "pdf": "v3-precision.pdf",
   "author": "Dr. Dezeming",
   "year": "2026",
   "toc_sections": true,

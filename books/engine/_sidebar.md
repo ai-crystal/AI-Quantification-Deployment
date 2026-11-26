@@ -19,4 +19,4 @@
 - **附录**
   - [延伸阅读](/books/engine/appendix/a-references.md)
 
-- <a href="/output/ai-inference-04-engine.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v4-engine.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>

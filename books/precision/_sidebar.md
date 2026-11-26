@@ -20,4 +20,4 @@
 - **附录**
   - [延伸阅读](/books/precision/appendix/a-references.md)
 
-- <a href="/output/ai-inference-03-precision.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
+- <a href="/output/v3-precision.pdf" target="_blank" rel="noopener" data-router-ignore>下载 PDF</a>
