@@ -14,10 +14,10 @@
 
 | 册 | 书名 | 一句话 | 页数 | 在线阅读 | PDF |
 | --- | --- | --- | ---: | --- | --- |
-| 01 | [入门](books/intro/README.md) | 从模型文件到线上服务 | 116 | [阅读](books/intro/README.md) | <a href="output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
-| 02 | [算力](books/compute/README.md) | GPU、CUDA 与算子性能 | 83 | [阅读](books/compute/README.md) | <a href="output/v2-compute.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
-| 03 | [精度](books/precision/README.md) | 量化、剪枝与低秩分解 | 82 | [阅读](books/precision/README.md) | <a href="output/v3-precision.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
-| 04 | [引擎](books/engine/README.md) | 计算图、编译与推理服务 | 74 | [阅读](books/engine/README.md) | <a href="output/v4-engine.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 01 | [入门](books/intro/README.md) | 从模型文件到线上服务 | 158 | [阅读](books/intro/README.md) | <a href="output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 02 | [算力](books/compute/README.md) | GPU、CUDA 与算子性能 | 94 | [阅读](books/compute/README.md) | <a href="output/v2-compute.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 03 | [精度](books/precision/README.md) | 量化、剪枝与低秩分解 | 96 | [阅读](books/precision/README.md) | <a href="output/v3-precision.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
+| 04 | [引擎](books/engine/README.md) | 计算图、编译与推理服务 | 88 | [阅读](books/engine/README.md) | <a href="output/v4-engine.pdf" target="_blank" rel="noopener" data-router-ignore>下载</a> |
 
 ## 怎么读
 

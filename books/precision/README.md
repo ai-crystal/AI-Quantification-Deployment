@@ -4,7 +4,7 @@
 
 本册讲量化、剪枝与低秩分解。
 
-共 15 章 · 82 页
+共 15 章 · 96 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v3-precision.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 

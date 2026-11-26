@@ -4,7 +4,7 @@
 
 本册讲从模型文件到线上服务。
 
-共 28 章 · 116 页
+共 28 章 · 158 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v1-intro.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 

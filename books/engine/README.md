@@ -4,7 +4,7 @@
 
 本册讲计算图、编译与推理服务。
 
-共 14 章 · 74 页
+共 14 章 · 88 页
 
 [从第 1 章开始](chapters/ch01.md)　·　<a href="../../output/v4-engine.pdf" target="_blank" rel="noopener" data-router-ignore>下载本册 PDF</a>
 
